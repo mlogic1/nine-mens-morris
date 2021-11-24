@@ -1,0 +1,15 @@
+{
+    "background" : "bg.jpg",
+    "logo" : "logo.png",
+	"doge" : "doge.png",
+	"bombsheet" : "bomb.png",
+	"dynamitesheet" : "dynamite.png",
+	"btn_hover": "btn_hover.png",
+	"btn_idle": "btn_idle.png",
+	"btn_disabled": "btn_disabled.png",
+	"btn_pressed": "btn_pressed.png",
+	"btn_pressed2" :"buttonStockPressed.png",
+	"btn_hover2" :"buttonStockHover.png",
+	"btn_idle2" :"buttonStockIdle.png",
+	"btn_disabled2" :"buttonStockDisabled.png"
+}

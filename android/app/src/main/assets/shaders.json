@@ -1,0 +1,19 @@
+{
+    "StandardShader" :
+    {
+      "VertexShader": "StandardShaderVertex.vs",
+      "FragmentShader" : "StandardShaderFragment.fs"
+    },
+    
+    "OrthoShader" :
+    {
+      "VertexShader": "OrthoShaderVertex.vs",
+      "FragmentShader" : "StandardShaderFragment.fs"
+    },
+
+    "FontShader" :
+    {
+        "VertexShader": "FontShaderVertex.vs",
+        "FragmentShader" : "FontShaderFragment.fs"
+    }
+}

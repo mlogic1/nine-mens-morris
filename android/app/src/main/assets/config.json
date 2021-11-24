@@ -1,0 +1,6 @@
+{
+  "ApplicationName" : "Chess Game",
+  "StartScene": "Scene_Main_Menu",
+  "VirtualResolutionWidth": 1280,
+  "VirtualResolutionHeight": 720
+}

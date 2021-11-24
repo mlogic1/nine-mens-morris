@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Scene>
+    <Sprite id="background_id_test" x="0" y="0" w="1280" h="720" texture="background"/>
+    <TextObject id="test_text" x="0" y="-5" w="150" h="80" text="testertext"/>
+    <TextObject id="fps_text" x="0" y="30" w="150" h="80" text="0 FPS"/>
+    <AnimatedSprite id="animation_sprite" x="50" y="150" w="128" h="128" texture="bombsheet" frame_count="18" frame_time="0.0851" frame_width="512" frame_height="512" frame_cols="5" frame_rows="4" />
+    <Button id="btn_play" x="550" y="450" w="300" h="200" texture_idle="btn_idle2" texture_hover="btn_hover2" texture_pressed="btn_pressed2" texture_disabled="btn_disabled2" />
+</Scene>

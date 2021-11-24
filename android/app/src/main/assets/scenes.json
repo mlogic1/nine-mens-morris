@@ -1,0 +1,17 @@
+{
+    "Scene_Main_Menu" : 
+    {
+      "SceneFile": "Scene_Main_Menu.xml",
+      "SceneInstance": "SceneMainMenu"
+    },
+    "Test_Scene" :
+    {
+      "SceneFile": "TestScene.json",
+      "SceneInstance": "SceneMainMenu"
+    },
+    "Mandelbrot":
+    {
+      "SceneFile": "Mandelbrot.json",
+      "SceneInstance": "SceneMandelBrot"
+    }
+}

@@ -1,0 +1,17 @@
+{
+  "SceneObjects":
+  [
+      {
+          "type": "Sprite",
+          "id":"fullscreen_sprite",
+          "rect":
+          {
+              "x":0,
+              "y":0,
+              "w":1280,
+              "h":720
+          },
+          "texture" : "background"
+      }
+  ]
+}
