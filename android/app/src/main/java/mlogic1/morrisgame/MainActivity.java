@@ -2,6 +2,7 @@ package mlogic1.morrisgame;
 
 import android.app.Activity;
 import android.content.res.AssetManager;
+import android.os.Build;
 import android.os.Bundle;
 import android.view.View;
 import android.view.Window;
@@ -12,7 +13,6 @@ import mlogic1.morrisgame.view.GLView;
 public class MainActivity extends Activity
 {
     static {
-        // System.loadLibrary("morrisgame");
         System.loadLibrary("game");
     }
 
@@ -47,19 +47,13 @@ public class MainActivity extends Activity
                         | View.SYSTEM_UI_FLAG_HIDE_NAVIGATION
                         | View.SYSTEM_UI_FLAG_FULLSCREEN
                         | View.SYSTEM_UI_FLAG_IMMERSIVE_STICKY);
-    }
 
-    /*@Override
-    protected void onResume()
-    {
-        super.onResume();
+        // display content over notch
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.P)
+        {
+            getWindow().getAttributes().layoutInDisplayCutoutMode = WindowManager.LayoutParams.LAYOUT_IN_DISPLAY_CUTOUT_MODE_SHORT_EDGES;
+        }
     }
-
-    @Override
-    protected void onPause()
-    {
-        super.onPause();
-    }*/
 
     public native void SetAssetManager(AssetManager manager);
 }
